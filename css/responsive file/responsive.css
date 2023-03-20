@@ -1,0 +1,338 @@
+@media (max-width:575px){
+    .close {
+        left: -12%!important;
+        
+     }
+     .navbar-toggler {
+       border: 2px solid #fff !important;}
+
+     .bg-main i{color: white; }
+     .bg-main{ height: 40px !important;}
+    .navbar-toggler:focus {
+      box-shadow: 0 0 0 transparent !important;    }
+    .bg-main ul{text-align:center; padding: 5px 0 !important;}
+    .bg-main ul li a::after {
+        left: 53px !important;
+        transform: translateX(388%) !important;
+        top: 40px !important;    }
+        .bg-main ul li a:hover::after { opacity:0;        }
+    .bg-main ul li a:hover{color:green !important;}
+.bg-main ul li a{margin-top: 16px !important;      }
+.bg-main ul li {margin: -2% !important;      }
+.text-b h1{ font-size:15pt; margin-top:-2px;}
+.text-b h3{ font-size:14pt;}
+.text-b ::after {top:40%; left:45%;}
+.text-b{left: 50%;    transform: translate(-50%,10%);padding:-10px 0; }
+.counter-item p{ font-size: 7pt !important;}
+.service-img img {
+	transform: translate(-140%,120%);
+	width: 15%;}
+    .one p {
+        text-align: center;
+        line-height: 25px;
+        width: 118% !important;
+    }
+    .team-image {
+        position: relative;
+        height: 181px !important;
+        width: 174px !important;
+    }
+    .team-image img {
+        width: 80% !important;
+    }
+    .team-overlay {
+        position: absolute;
+        height: 172px !important;
+        width: 139.5px !important;
+      
+    }
+    .team-icon i {
+        font-size: 16px!important;
+        height: 15px!important;
+        width: 21px!important;
+        transform: translate(4%,696%);
+    }
+   .text-t h5{
+    font-size: 7pt !important;
+   }
+   .work-inner img {
+    transform: translate(-1.1%,-100%)!important;
+    top: 50%!important;
+    left: 50%!important;
+  }
+.offset-lg-3 {
+	margin-left: 25%!important;
+}
+.work-inner {
+	height:107%!important;
+	width:104%!important;
+}
+.text-e h6::after {
+	width: 67px!important;
+	left: 90%!important;
+    font-size: 10pt!important;
+	}
+    .text-e p {
+        font-size: 11px!important;
+        width: 145%!important;
+       text-align: center!important;
+    }
+    .text-e h5 {
+       font-size: 13px!important;
+          }
+          .image-item {
+            transform: translate(-4%,17%) !important;
+        }
+.image-t img{
+    width: 50%!important;
+}
+.image-t p {
+	transform: translate(137%,-101%)!important;
+	width: 57% !important;
+    font-size: 8pt !important;
+}
+.text-1 h3 {
+	margin-left: 3px !important;
+	margin-top: 31%!important;
+	margin-bottom: -15%!important;
+}
+.text-ttp h1 {
+	transform: translate(12%,185%) !important;
+	font-size: 18pt;
+}
+.image-main {
+	transform: translate(19%,59%)!important;
+	}
+    .image-inner img {
+        height: 57px!important;              }
+        }
+@media (min-width: 576px) and (max-width: 767.98px){
+    .close {
+        left: -12%!important;
+        
+     }
+    .navbar-toggler {
+    border: 2px solid #fff !important;}
+
+  .bg-main i{color: white; }
+  .bg-main{ height: 40px !important;}
+ .navbar-toggler:focus {
+   box-shadow: 0 0 0 transparent !important;    }
+ .bg-main ul{text-align:center; padding: 5px 0 !important;}
+ .bg-main ul li a::after {
+	left: 53px !important;
+	transform: translateX(365%) !important;
+	top: 40px !important;
+}
+     .bg-main ul li a:hover::after { opacity:0;        }
+ .bg-main ul li a:hover{color:green !important;}
+.bg-main ul li a{margin-top: 16px !important;      }
+.bg-main ul li {margin: -2% !important;      }
+.text-b h1{ font-size:15pt; margin-top:-2px;}
+.text-b h3{ font-size:14pt;}
+.text-b ::after {top:40%; left:45%;}
+.text-b{left: 50%;    transform: translate(-50%,10%);padding:-10px 0; }
+.counter-item p{ font-size:7pt;}
+.service-img img {
+ transform: translate(-140%,120%)!important;
+ width: 15%;}
+ 
+    .service-img h3{
+     font-size: 10pt!important;
+      }
+      .service-img p{
+       font-size: 1pt!important;
+        }
+ .one p {
+     text-align: center;
+     line-height: 25px;
+     width: 118% !important;
+ }
+ .one h6 {
+	left: 7%!important;
+}
+.one h6::after {
+	left: -27%!important;
+	}
+ .team-image {
+     position: relative;
+     height: 181px !important;
+     width: 174px !important;
+ }
+ .team-image img {
+     width: 80% !important;
+ }
+ .team-overlay {
+     position: absolute;
+     height: 172px !important;
+     width: 139.5px !important;
+   
+ }
+ .team-icon i {
+     font-size: 16px!important;
+     height: 15px!important;
+     width: 21px!important;
+     transform: translate(4%,696%);
+ }
+.text-t h5{
+ font-size: 7pt !important;
+}
+/.work-inner {
+	height: 100%;
+	width: 102%;
+	transform: translate(-0.1%,-99%);
+	top: 50%;
+	left: 50%;
+}
+.work-inner {
+ height:107%!important;
+ width:104%!important;
+ transform: translate(-0.1%,-99%)!important;
+	top: 50%!important;
+	left: 50%!important;
+}
+.text-e h6::after {
+ width: 67px!important;
+ left: 90%!important;
+ font-size: 10pt!important;
+ }
+ .text-e p {
+     font-size: 11px!important;
+     width: 145%!important;
+    text-align: center!important;
+ }
+ .text-e h5 {
+    font-size: 13px!important;
+       }
+       .image-item {
+         transform: translate(-4%,17%) !important;
+     }
+.image-t img{
+ width: 50%!important;
+}
+.image-t p {
+ transform: translate(137%,-101%)!important;
+ width: 57% !important;
+ font-size: 7pt!important;
+}
+.text-1 h3 {
+ margin-left: 3px !important;
+ margin-top: 31%!important;
+ margin-bottom: -15%!important;
+}
+.text-ttp h1 {
+ transform: translate(12%,185%) !important;
+ font-size: 18pt;
+}
+.image-main {
+ transform: translate(19%,59%)!important;
+ }
+ .image-inner img {
+     height: 57px!important;   }
+
+}
+@media(min-width:768px) and (max-width:991.98px){
+    .close {
+       left: -12%!important;
+       
+    }
+    .navbar-toggler {border: 2px solid #fff !important;}
+ 
+      .bg-main i{color: white; }
+      .bg-main{ height: 40px !important;}
+     .navbar-toggler:focus {
+       box-shadow: 0 0 0 transparent !important;    }
+     .bg-main ul{text-align:center; padding: 5px 0 !important;}
+     .bg-main ul li a::after {
+        left: 242px !important;
+        transform: translateX(-478%) !important;
+        top: 40px !important;    }
+         .bg-main ul li a:hover::after { opacity:0;        }
+     .bg-main ul li a:hover{color:green !important;}
+ .bg-main ul li a{margin-top: 16px !important;      }
+ .bg-main ul li {margin: -2% !important;      }
+ .text-b h1{ font-size:15pt; margin-top:-2px;}
+ .text-b h3{ font-size:14pt;}
+ .text-b ::after {top:40%; left:45%;}
+ .text-b{left: 50%;    transform: translate(-50%,10%);padding:-10px 0; }
+ .counter-item p{ font-size:7pt;}
+ .service-img img {
+     transform: translate(-140%,120%);
+     width: 15%;}
+     .one p {
+         text-align: center;
+         line-height: 25px;
+         width: 118% !important;
+     }
+     .team-image {
+         position: relative;
+         height: 181px !important;
+         width: 174px !important;
+     }
+     .team-image img {
+         width: 80% !important;
+     }
+     .team-overlay {
+         position: absolute;
+         height: 172px !important;
+         width: 139.5px !important;
+       
+     }
+     .team-icon i {
+         font-size: 16px!important;
+         height: 15px!important;
+         width: 21px!important;
+         transform: translate(4%,696%);
+     }
+    .text-t h5{
+     font-size: 7pt !important;
+    }
+    .work-inner img {
+        margin-top: 13% !important;
+    }
+ .work-inner {
+     height:107%!important;
+     width:104%!important;
+ }
+ .text-e h6::after {
+	width: 89px !important;
+	left: 67%!important;
+}
+.text-e p {
+	font-size: 8pt !important;
+	}
+     .text-e h5 {
+        font-size: 13px!important;
+           }
+           .image-item {
+             transform: translate(-4%,17%) !important;
+         }
+         .image-t img {
+            width: 44% !important;
+            margin-left: -24%!important;
+        }
+        .image-t p {
+            transform: translate(101%,-98%) !important;
+            width: 62% !important;
+            font-size: 10pt !important;
+        }
+ .text-1 h3 {
+     margin-left: 3px !important;
+     margin-top: 31%!important;
+     margin-bottom: -15%!important;
+ }
+ .text-ttp h1 {
+     transform: translate(12%,185%) !important;
+     font-size: 18pt;
+ }
+ .image-main {
+     transform: translate(19%,59%)!important;
+     }
+     .image-inner img {height: 57px!important;}
+}
+@media(min-width:992px) and (max-widht:1199px){    
+}
+@media(min-width:1200px) and (max-width:1399px){ 
+}
+@media(min-width:1400px){  
+}

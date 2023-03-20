@@ -1,0 +1,21 @@
+CSS rules to specify families
+
+    font-family: 'Kaushan Script', cursive;
+
+    font-family: 'Martel Sans', sans-serif;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+
+    font-family: 'Roboto Condensed', sans-serif;
+
+    font-family: 'Roboto Slab', serif;
+
+
+
+    Light 300 
+
+    Regular 400 
+
+    Bold 700 
