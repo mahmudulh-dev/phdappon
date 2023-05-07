@@ -1,3 +1,14 @@
+ /* banner-main start  */
+
+ $(".banner-main").slick({
+  slidesToShow: 1,
+slidesToScroll: 1,
+autoplay: true,
+autoSpeed: 2000,
+nextArrow: ".next",
+prevArrow: ".prev",
+dots: true,
+});
 
 $('.about-main').slick({
     slidesToShow: 3,

@@ -165,17 +165,7 @@ transition: 0.5s;
 /*our-awesome-features end*/
 /*3d card slider start*/
 #flagin{ padding:15px 0;}
-/* navbar start*/
-.bg-main{
-  background-color: hsla(0, 0%, 50%, 0.363);
-  height:60px! important;
-  position: absolute;
-   width:100%;
-  z-index: 1;
- position: fixed;
-  top:0;
-  left:0;
-}
+
 /*back to top & background color auto remove  start*/
 
 /*add class bg*/
@@ -211,6 +201,7 @@ animation:hasan 2s infinite;
 
 .navbar-example ul li a.active{
   background-color: green!important;
+  padding:15px;
 }
 .navbar-example ul li a.active::after{
   opacity:1;
@@ -218,74 +209,187 @@ animation:hasan 2s infinite;
 /*scrollspy end*/
 /*back to top & background color auto remove  end*/
 
-
-.bg-main ul li a{
-    margin:0 10px;
-   color:black !important;
-   position:relative;
+/* navbar start*/
+.navbar {
+	padding-top:0px!important;
+	padding-bottom:0px!important;
+}
+.bg-main{
+  background-color: hsla(0, 0%, 50%, 0.363);
+  height:54px! important;
+  position: absolute;
+   width:100%;
+  z-index: 1;
+ position: fixed;
+  top:0;
+  left:0;
+  border-bottom: 1px solid gray;
+}
+.bg-main img{width:82%!important;align-items: center!important;
+color:black!important;
+}
+.bg-main ul li{
+align-items: center!important;
+}
+.bg-main ul li a {
+	margin: 0 10px;
+  color:white !important;
+	position: relative;
+	text-align: center !important;
+	align-items: center;
+	padding-top: 14px!important;
 }
 .bg-main ul li a:hover{
-    color:white !important;
+    color: black !important;
 }
 .bg-main ul li a::after{
     position: absolute;
     height:2px;
-    width:50px;
+    width:0px;
     content:"";
     background-color: red !important;
-    bottom:-2px;
-    left:10px;
-    opacity: 0;
+    bottom:-1px;
+    left:0px;
+      /* opacity: 0; */
 }
 .bg-main ul li a:hover::after{
-    opacity:1;
+    /* opacity:1; */
+    width:100%;
+    transition: all linear 0.5s;
 }
 /* banner start*/
-#banner{
-padding:100px 0;
-background:linear-gradient(to bottom,hsl(0, 97%, 73%),hsla(30, 100%, 75%, 0.747)),url(../css/image/banner.jpg) no-repeat center /cover;
-
+.banner-img{
+  /* height:600px; */
+ padding:243px 0;
+    }
+.bannerpo{
+  position:relative;
 }
-.text-b {
-	color: white !important;
-	position: relative;
-	font-size: 90pt !important;
-	font-weight: 700;
-	font-family: 'Montserrat', sans-serif;
-	top: 22% !important;
+.banner-inner{
+  position:absolute;
+  top:64px;
+  right:0;
+  z-index:1;
+  color:#fff;
+   }
+.banner-text{
+ text-align: right;
+ 
 }
-.text-b h3 {
-	font-size: 30pt !important;
-	font-weight: 400;
-	font-family: 'Kaushan Script', cursive;
-}
-.text-b h1 {
-	font-size: 26pt;
-	margin-top: -2px;
-}
-.text-b a {
-	color: white !important;
-	padding: 5px;
-	border: 2px solid white;
-	/ margin-top: 48px !important;
-	font-size: 10pt;
-	font-weight: 400;
-	font-family: 'Roboto', sans-serif;
-	transform: translate(11%,-183%);
-}
+.banner-text h1{
+ text-transform:uppercase;
+ margin-top: 15%;
+ }
+ .banner-text h1::first-letter{
+color:purple;
+ }
+ .banner-text h2{
+  position:relative;
+  padding-bottom: 50px;
   
-.text-b h3::after {
+ }
+ .banner-text h2::after {
 	position: absolute;
-	height: 2px;
-	width: 56px !important;
 	content: "";
-	left: 45%;
-	top: 50% !important;
-	background-color: white !important;
+	height: 2px;
+	width: 200px;
+	top: 71%;
+	right: 0;
+	background-color: #fff;
+}
+.banner-text p {
+	width: 470px;
+	margin-left: auto;
+	padding-bottom: 23px;
+}
+.ban-btn {
+  display: inline-block;
+  background-color:#666699;
+  color: #fff;
+  padding: 13px 18px 16px 46px;
+  position: relative;
+  margin:0 3px;
+  text-align: left;
+  border-radius:10px;
+}
+.ban-btn i {
+  position: absolute;
+  left: 19px;
+  top: 50%;
+  transform: translateY(-50%);
+ 
+}
+.ban-btn h4{
+  font-size: 0.5rem;
+}
+.ban-btn h5{
+    font-size: 0.5rem;
+  }
+/*...arrows start...*/
+#banner{
+position:relative;
+
+}
+.next {
+position:absolute;
+top: 50%;
+left:  50px;
+z-index: 2;
+color:#fff;
+
 }
 
-/* banner end*/
+.prev {
+position:absolute;
+top: 50%;
+right: 55px;
+z-index: 2;
+color:#fff;
+}
+/*...arrows end...*/
+ /*...dots start...*/
+     
+ .slick-dots{
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+  top:70%;
+right:20px;
+z-index: 10;
+ }
+ .slick-dots li{
+  background-color:#fff;
+  height:20px;
+  width:20px;
+  border-radius:50%;
+ margin:5px 0;
+ }
+.slick-dots li button{
+  background-color:red;
+  border:none;
+  height:10px;
+  width:10px;
+  border-radius:50%;
+  color:transparent;
+  text-align: center;
+  opacity:0;
+  margin-top:5px ;
+ }
+.slick-dots li.slick-active button{
+  opacity:1;
+ }
 
+.home-icon  i{
+position: absolute;
+right: 21px;
+top: 63%;
+z-index: 12;
+color:#fff;
+}
+    /*...dots end...*/
+/* banner end*/
+/* flagin */
+#flagin{padding-top:20px 0;}
 /* about start*/
 #about{
     padding:60px;
@@ -351,7 +455,7 @@ margin-left:10px;
 }
 /* service-part  start*/
 #service-part{
-   / padding:60px 0;
+    padding:30px 0;
  
 }
 .service-text h3{
@@ -593,11 +697,12 @@ top: 66%;
     width: 100% !important;
   margin:0 6px;
   }
+  .image-inner{padding-top: 20px;}
   .image-inner img {
     height: 155px;
     /width: 80px;
     display: inline-block;
-    margin-top: -21%;
+    /* margin-top: -21%; */
   }
   .text-ttp h1 {
     transform: translate(30%,130%);
