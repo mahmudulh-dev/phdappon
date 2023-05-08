@@ -5,10 +5,32 @@
 slidesToScroll: 1,
 autoplay: true,
 autoSpeed: 2000,
-nextArrow: ".next",
-prevArrow: ".prev",
+arrows: false,
 dots: true,
 });
+
+/* feedback status start  */
+
+$('.feedback-text').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  asNavFor: '.feedback-img',
+  fade: true,
+});
+
+$('.feedback-img').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+   asNavFor: '.feedback-text',
+  arrows: false,
+ dots: true,
+centerMode: true,
+centerPadding: "0px",
+focusOnSelect: true,
+   });
 
 $('.about-main').slick({
     slidesToShow: 3,

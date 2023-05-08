@@ -241,6 +241,7 @@ align-items: center!important;
 }
 .bg-main ul li a:hover{
     color: black !important;
+    
 }
 .bg-main ul li a::after{
     position: absolute;
@@ -250,10 +251,10 @@ align-items: center!important;
     background-color: red !important;
     bottom:-1px;
     left:0px;
-      /* opacity: 0; */
+      opacity: 0;
 }
 .bg-main ul li a:hover::after{
-    /* opacity:1; */
+    opacity:1;
     width:100%;
     transition: all linear 0.5s;
 }
@@ -330,7 +331,7 @@ color:purple;
 position:relative;
 
 }
-.next {
+/* .next {
 position:absolute;
 top: 50%;
 left:  50px;
@@ -345,37 +346,39 @@ top: 50%;
 right: 55px;
 z-index: 2;
 color:#fff;
-}
+} */
 /*...arrows end...*/
  /*...dots start...*/
      
- .slick-dots{
-  position: absolute;
-  display: inline-block;
-  text-align: center;
-  top:70%;
-right:20px;
-z-index: 10;
- }
- .slick-dots li{
-  background-color:#fff;
-  height:20px;
-  width:20px;
-  border-radius:50%;
- margin:5px 0;
- }
-.slick-dots li button{
-  background-color:red;
-  border:none;
-  height:10px;
-  width:10px;
-  border-radius:50%;
-  color:transparent;
-  text-align: center;
-  opacity:0;
-  margin-top:5px ;
- }
-.slick-dots li.slick-active button{
+ #banner .slick-dots {
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    top: 64%;
+    right: 26px;
+    z-index: 10;
+  }
+#banner .slick-dots li {
+	height: 20px !important;
+	width: 20px !important;
+	background-color: rgb(251, 251, 251);
+	border-radius: 50%;
+	margin-top: 5px;
+
+}
+#banner .slick-dots li button {
+	height: 8px!important;
+	width: 8px!important;
+	background-color: rgb(252, 6, 149)!important;
+	border-radius: 50%;
+	margin-left: 0px!important;
+	margin-top: 6px!important;
+	color: transparent;
+	border: none;
+	opacity: 0;
+	text-align: center;
+}
+ #banner .slick-dots li.slick-active button{
   opacity:1;
  }
 
@@ -389,7 +392,128 @@ color:#fff;
     /*...dots end...*/
 /* banner end*/
 /* flagin */
-#flagin{padding-top:20px 0;}
+#flagin{padding:20px 0;
+}
+/* user feedback start */
+#feedback-part{
+  background:url(../css/image/feedback-image.jpg) no-repeat center / cover;
+  width: 100%;
+  padding-top:40px ;
+  position: relative;
+  margin-bottom: -35px;
+}
+.feedback-main{
+  justify-content: space-between;
+}
+.feedback-text{
+  text-align: center;
+
+  }
+ .feedback-inner{
+  position: relative;
+ width:60% !important;
+ background-color: #fff;
+  text-align: center;
+  padding: 30px 30px;
+  margin-bottom: 40px;
+  margin-right: 5%;
+  }
+  .feedback-inner h1{
+    font-size:15pt;}
+    .feedback-inner h4{
+      font-size:12pt;}
+.feedback-inner p{
+font-size: 10pt;
+}
+.feedback-inner i{
+  font-size: 10pt;
+  }
+  .feedback-inner::after {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background-color: #fff;
+  content: "";
+  border-radius: 0 0 0 10px;
+  left: 50%;
+  top: 100%;
+  transform: translate(-80%,-50%) rotate(-45deg);
+ 
+  }
+  .feedback-img{
+    width:50% ;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+  .feedback-item img{
+    border-radius: 50%;
+    width: 100%;
+  } 
+  .feedback-item{
+    position: relative;
+    width:100px !important;
+    height:100px;
+    }
+  .feedback-item::after{
+position: absolute;
+content:"";
+background-color: rgba(255, 20, 145, 0.507);
+height: 100%;
+width: 100%;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+border-radius: 50%;
+  }
+
+
+  #feedback-part .slick-center .feedback-item::after {
+  opacity: 0;
+  position:absolute;
+  }
+  #feedback-part .slick-center .feedback-item  img{
+    transform:scale(1.2);
+    border:2px solid green;
+    border-radius: 50%;
+    }
+    #feedback-part  .feedback-item{
+margin: 40px 0px;
+    }
+/*...dots start...*/
+
+#feedback-part .slick-dots {
+	position: absolute;
+	display: flex;
+	text-align: center;
+	top: 84%;
+	right: 250px;
+	z-index: 10;
+}
+#feedback-part .slick-dots li{
+background-color: aqua;
+height:20px;
+width:20px;
+border-radius:50%;
+margin:5px 5px;
+}
+#feedback-part .slick-dots li button{
+background-color:#fff;
+border:none;
+height:10px;
+width:10px;
+border-radius:50%;
+color:transparent;
+text-align: center;
+opacity:0;
+margin-top:5px ;
+}
+#feedback-part .slick-dots li.slick-active button{
+opacity:1;
+}
+
+
+/*...dots end...*/
+/* user feedback end */
 /* about start*/
 #about{
     padding:60px;
@@ -420,20 +544,20 @@ position: relative;
      padding-top:20px;
     }
     #about .slick-dots li{
-height: 30px;
-width: 30px;
+height: 20px;
+width: 20px;
 background-color: aqua;
 border-radius: 50%;
 margin-left:10px;
 
     }
     #about .slick-dots li button{
-        height: 15px;
-        width: 15px;
-        background-color: rgb(255, 17, 0);
+        height: 8px;
+        width: 8px;
+        background-color: rgb(248, 245, 245);
         border-radius: 50%;
-       margin-left:7px;
-       margin-top:8px;
+       margin-left:6px;
+       margin-top:6px;
        color:transparent;
         border: none;
         opacity: 0;
@@ -652,17 +776,19 @@ top: 66%;
 	width: 173%;
 	color: #726767;
 }
-  .text-e h5 {
-    text-align: left;
-    font-size: 20pt;
-    font-weight: 400;
-    font-family: 'Roboto Slab', serif;
-    width: 173% !important;
-    color:#726767;
-  }
+.text-e h5 {
+	text-align: left;
+	font-size: 15pt;
+	font-weight: 400;
+	font-family: 'Roboto Slab', serif;
+	width: 173% !important;
+	color: #726767;
+	margin-top: 5px;
+}
   .text-e h6{
     position: relative;
     text-align: left;
+    /margin-bottom: 45px;
   }
   .text-e h6::after {
     position: absolute;
@@ -670,8 +796,8 @@ top: 66%;
     width: 250px;
     content: "";
     background-color: rgba(255, 0, 0, 0.397);
-    left: 50%;
-    top: 66%;
+    left: 69%;
+    bottom: -103%;
   }
 
   .image-t p {
